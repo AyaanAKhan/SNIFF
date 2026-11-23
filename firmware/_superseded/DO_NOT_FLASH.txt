@@ -1,0 +1,16 @@
+Superseded sketches. Do not flash these for the demo.
+
+sniff_inference/
+    The earlier build. It runs a hand-written forward pass over weights
+    exported by train.py (scikit-learn) and has no WiFi and no dashboard.
+    It was replaced because the submitted proposal specifies TensorFlow
+    Lite and an IoT alert path, and this sketch delivers neither.
+
+The sketch to flash is:   firmware/sniff_web/sniff_web.ino
+
+Kept here rather than deleted because the hand-written forward pass was
+cross-checked against the Python model (zero disagreements over 200
+held-out rows, maximum probability difference 5e-6) and that check is
+cited in the report.
+
+Ayaan Khan

@@ -1,0 +1,17 @@
+Run 1, recorded 2026-11-11 00:13 to 01:28. NOT used in the reported results.
+
+Discarded because the gas exposures saturated the sensor:
+  - 38.7% of leak samples pinned at the ADC rail (rs_ro = 0.000)
+  - leak class max rs_ro 0.256, safe class min 1.232
+  - separation gap +0.976 with zero overlap between classes
+
+With the sensor railed, Rs is outside its measurable range, and the two
+classes are so far apart that any single threshold separates them. All four
+detectors scored 100%, which measures the dosing, not the detectors.
+
+The dose was corrected for run 2 and the classes now overlap by 0.425.
+
+Kept for provenance. The drift-bracket measurement from this run is still
+cited in the report, since that part of it was valid.
+
+Ayaan Khan

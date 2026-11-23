@@ -1,0 +1,71 @@
+{
+  "data_source": "simulated",
+  "split": "session-wise",
+  "meta": {
+    "n_params": 225,
+    "n_train": 2400,
+    "n_train_sessions": 4,
+    "accuracy": 0.94375,
+    "recall": 0.9041666666666667,
+    "int8_delta": 0.0004166666666667318,
+    "split": "session-wise",
+    "data_source": "simulated"
+  },
+  "results": {
+    "fixed threshold": {
+      "accuracy": 0.9291666666666667,
+      "recall": 0.8583333333333333,
+      "precision": 1.0,
+      "fpr": 0.0,
+      "humid_fpr": 0.0,
+      "tn": 1200,
+      "fp": 0,
+      "fn": 170,
+      "tp": 1030
+    },
+    "threshold + T/RH compensation": {
+      "accuracy": 0.9425,
+      "recall": 0.8916666666666667,
+      "precision": 0.9925788497217068,
+      "fpr": 0.006666666666666667,
+      "humid_fpr": 0.008333333333333333,
+      "tn": 1192,
+      "fp": 8,
+      "fn": 130,
+      "tp": 1070
+    },
+    "logistic regression": {
+      "accuracy": 0.94,
+      "recall": 0.8975,
+      "precision": 0.9808743169398907,
+      "fpr": 0.0175,
+      "humid_fpr": 0.018333333333333333,
+      "tn": 1179,
+      "fp": 21,
+      "fn": 123,
+      "tp": 1077
+    },
+    "MLP 4-16-8-2": {
+      "accuracy": 0.94375,
+      "recall": 0.9041666666666667,
+      "precision": 0.9819004524886877,
+      "fpr": 0.016666666666666666,
+      "humid_fpr": 0.013333333333333334,
+      "tn": 1180,
+      "fp": 20,
+      "fn": 115,
+      "tp": 1085
+    },
+    "MLP, int8 weights": {
+      "accuracy": 0.9441666666666667,
+      "recall": 0.9033333333333333,
+      "precision": 0.9836660617059891,
+      "fpr": 0.015,
+      "humid_fpr": 0.013333333333333334,
+      "tn": 1182,
+      "fp": 18,
+      "fn": 116,
+      "tp": 1084
+    }
+  }
+}
