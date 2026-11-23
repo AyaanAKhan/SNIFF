@@ -1,0 +1,34 @@
+{
+  "splits": 12,
+  "protocol": "stratified session hold-out, frac=0.3",
+  "fixed": {
+    "accuracy_mean": 0.9174026500116037,
+    "accuracy_std": 0.05996332876416146,
+    "recall_mean": 0.9074154397679383,
+    "recall_std": 0.05740259173361873,
+    "humid_fpr_mean": 0.14246424642464248,
+    "humid_fpr_std": 0.24812846558065224,
+    "dry_fpr_mean": 0.0024834437086092716,
+    "dry_fpr_std": 0.008236650969425661
+  },
+  "compensated": {
+    "accuracy_mean": 0.9527473522358507,
+    "accuracy_std": 0.03278370362608939,
+    "recall_mean": 0.9464034535602869,
+    "recall_std": 0.022985290573899118,
+    "humid_fpr_mean": 0.00275027502750275,
+    "humid_fpr_std": 0.006295667294972275,
+    "dry_fpr_mean": 0.07904217574075288,
+    "dry_fpr_std": 0.12087547860514149
+  },
+  "network": {
+    "accuracy_mean": 0.7741311722818004,
+    "accuracy_std": 0.13439687691988778,
+    "recall_mean": 0.8574231934030249,
+    "recall_std": 0.15653306165819375,
+    "humid_fpr_mean": 0.07819887949059806,
+    "humid_fpr_std": 0.12845985864314055,
+    "dry_fpr_mean": 0.5400583932565441,
+    "dry_fpr_std": 0.44884132767846313
+  }
+}
